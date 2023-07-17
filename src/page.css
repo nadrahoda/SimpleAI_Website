@@ -1,0 +1,126 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.bg{
+    background-image: url('./images/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link{
+    -webkit-box-shadow: 0 0 10px #bbb5b5;
+    box-shadow: 0 0 10px #bbb5b5;
+}
+main{
+    background-color: white;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.content{
+    background: url("./images/image.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* margin-top: 5rem; */
+}
+.text1{
+    width: 29rem;
+    height: 10rem;
+   margin-top: 6rem;
+ font-size: 45px;
+ color: white;
+font-weight: bold;
+
+}
+
+.text2{
+    width: 30rem;
+    height: 10rem;
+   margin-top: 9rem;
+ color: white;
+
+}
+@media screen and (max-width:412px ) and (min-width:315px) {
+    .div_right{
+        width:2rem;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.content2{
+    background: url("./images/image4.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+   
+}
+.h1{
+    font-family: Segoe UI;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+color:white;
+margin-top: 8rem;
+}
+.bgcards{
+    background: url("./images/image113.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.footer{
+    background: url("./images/image4.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.icon{
+    background: url("./images/image7.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+  
+    border:none
+}
+.form{
+    height: 80px;
+width: 304px;
+
+border-radius: nullpx;
+color: white;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+@media screen and (max-width:415px) {
+    .form{
+      text-align: center;
+    }
+}
+
+.inter{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #9E9E9E;
+margin-left: 1.2rem;
+
+}
+
